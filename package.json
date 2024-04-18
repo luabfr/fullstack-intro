@@ -6,11 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cypress:open": "cypress open"
   },
   "dependencies": {
+    "@prisma/client": "^5.12.1",
+    "next": "14.2.1",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.1"
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "cypress": "^13.7.3",
+    "prisma": "^5.12.1"
   }
 }
